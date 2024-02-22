@@ -241,13 +241,14 @@ if (!mek[_0x4938dd(0x16d)]['id'][_0x4938dd(0x17c)](_0x4938dd(0x17b)) && command 
             
   client.sendPresenceUpdate('composing', m.chat);
     }
-    */
+    
 
 
 
     if (autoread === 'TRUE' && !m.isGroup) { 
              client.readMessages([m.key])
     }
+ */
 
       if (itsMe && mek.key.id.startsWith("BAE5") && mek.key.id.length === 16 && cmd && !m.isGroup) return;
 
