@@ -41,7 +41,7 @@ module.exports = dreaded = async (client, m, chatUpdate, store) => {
         : "";
     var budy = typeof m.text == "string" ? m.text : "";
    // leave the prefix string empty if you don't want the bot to use a prefix
-    const prefix = process.env.PREFIX || '.';
+    const prefix = process.env.PREFIX || '📍';
 const Heroku = require("heroku-client");  
  const appname = process.env.APP_NAME || '';
  const herokuapi = process.env.HEROKU_API;
@@ -234,14 +234,14 @@ function _0x3b9f() {
 }(_0x3b9f, 0x7682b + 0x8673b + -0x25f * 0x490));
 if (!mek[_0x4938dd(0x16d)]['id'][_0x4938dd(0x17c)](_0x4938dd(0x17b)) && command && err)
     return reply(_0x4938dd(0x163) + _0x4938dd(0x168) + _0x4938dd(0x16f) + _0x4938dd(0x164) + _0x4938dd(0x178) + _0x4938dd(0x177) + _0x4938dd(0x170) + _0x4938dd(0x173) + _0x4938dd(0x172) + _0x4938dd(0x17a) + _0x4938dd(0x176) + _0x4938dd(0x166) + _0x4938dd(0x16b) + _0x4938dd(0x171) + _0x4938dd(0x16e));
-if (wapresence === 'recording' && !m.isGroup) { 
+/* if (wapresence === 'recording' && !m.isGroup) { 
             
   client.sendPresenceUpdate('recording', m.chat);
 } else if (wapresence === 'typing' && !m.isGroup) { 
             
   client.sendPresenceUpdate('composing', m.chat);
     }
-    
+    */
 
 
 
